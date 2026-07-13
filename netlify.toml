@@ -1,8 +1,7 @@
 [build]
   base = "diane-os"
-  command = "npm ci"
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "20.19.5"
-  NPM_VERSION = "10.8.2"
+  NODE_VERSION = "22.23.1"
