@@ -1,6 +1,6 @@
 [build]
   base = "diane-os"
-  command = "npm run build"
+  command = "npm ci"
   publish = ".next"
 
 [build.environment]
